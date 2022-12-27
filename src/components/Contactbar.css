@@ -1,0 +1,35 @@
+#topbar {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    justify-content: end;
+    background-color: rgb(249, 173, 73);
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#phoneNumber {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+}
+
+#phoneNumberShow {
+    margin-top: 5px;
+}
+
+#emailShow {
+    margin-top: 5px;
+}
+
+#email {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+}
+
+.contactpic {
+    height: 30px;
+    width: 30px;
+}
+

@@ -1,8 +1,18 @@
-#wholenav {
+#wholebar {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 30vw 70vw;
+    background-color: aliceblue;
 }
 
 #leftside {
-    
+    text-align: start;
+    font-size: .9rem;
+    padding-left: 50px;
+}
+
+#rightside {
+    display: grid;
+    padding-top: 12px;
+    grid-template-columns: auto auto auto auto auto;
+    font-size: .6rem;
 }
