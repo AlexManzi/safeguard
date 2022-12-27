@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
@@ -8,7 +9,7 @@ function Home() {
             <div id="homeBlurb">
                 <h2 id="heading">THE BEST POSSIBLE PROTECTION FOR CONTRACTORS AND PROPERTY OWNERS.</h2>
                 <p id="frontText">We offer complete protection for any construction activity that produced vibration including excavations, rock blasting, pile driving, drilling, underpinning, and any other vibration producing activity.</p>
-                <button id="homeContact">Contact Us!</button>
+                <Link to="/ContactUs" id="contactLink"><button id="homeContact">Contact Us!</button></Link>
             </div>
         </div>
     </div>
