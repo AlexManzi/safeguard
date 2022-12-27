@@ -1,11 +1,12 @@
 #topbar {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 10px;
+    column-gap: 20px;
     justify-content: end;
     background-color: rgb(249, 173, 73);
     padding-top: 10px;
     padding-right: 10px;
+    font-size: .9rem;
 }
 
 #phoneNumber {
@@ -15,11 +16,11 @@
 }
 
 #phoneNumberShow {
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 #emailShow {
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 #email {
@@ -29,7 +30,7 @@
 }
 
 .contactpic {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
 }
 

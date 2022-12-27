@@ -1,0 +1,24 @@
+#servicesTop {
+    display: grid;
+
+}
+
+#servicesMain {
+    display: grid;
+    grid-template-columns: 40vw 60vw;
+}
+
+#servicesLeft{
+    text-align: start;
+    padding-left: 50px;
+}
+
+#coverageHeading {
+    font-size: 3rem;
+}
+
+#servicesRight{
+    text-align: end;
+    padding-right: 50px;
+    margin-top: 50px;
+}

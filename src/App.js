@@ -5,8 +5,8 @@ import Navbar from './components/Navbar';
 import Contactbar from './components/Contactbar';
 import Aboutus from './pages/Aboutus';
 import Contactus from './pages/Contactus';
-import Projects from './pages/Projects';
 import ServiceAreas from './pages/ServiceAreas';
+import Projects from './pages/Projects';
 import Servicesoffered from './pages/Servicesoffered';
 import './App.css';
 
@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/ServiceAreas" element={<ServiceAreas/>}/>
-        <Route exact path="/Project" element={<Projects/>}/>
+        <Route exact path="/Projects" element={<Projects/>}/>
         <Route exact path="/ServicesOffered" element={<Servicesoffered/>}/>
         <Route exact path="/ContactUs" element={<Contactus/>}/>
         <Route exact path="/AboutUs" element={<Aboutus/>}/>
