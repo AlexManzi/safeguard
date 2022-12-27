@@ -1,0 +1,8 @@
+#wholenav {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#leftside {
+    
+}
