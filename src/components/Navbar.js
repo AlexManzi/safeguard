@@ -11,7 +11,7 @@ function q() {
       <div id="rightside">
         <Link to="/ServiceAreas" className='linkFormat'><h1>Service Areas</h1></Link>
         <Link to="/Projects" className='linkFormat'><h1>Projects</h1></Link>
-        <a href="/#ServicesWeOffer"><h1>Services Offered</h1></a>
+        <a className='linkFormat' href="/#ServicesWeOffer"><h1>Services Offered</h1></a>
         <Link to="/ContactUs" className='linkFormat'><h1>Contact Us</h1></Link>
         <Link to="/AboutUs" className='linkFormat'><h1>About Us</h1></Link>
       </div>

@@ -8,8 +8,13 @@ function ServiceContent({item}) {
         <div id="itemHeadingL">
             <h1>{item.serviceName}</h1>
         </div>
-        <div id="itemTextL">
-            <p>{item.text}</p>
+        <div id="contentParentLeft">
+            <div id="itemTextL">
+                <p>{item.text}</p>
+            </div>
+            <div id="itemPicture">
+                <img className="previewPic" src={item.pic}/>
+            </div>
         </div>
     </div>
 
@@ -18,8 +23,13 @@ function ServiceContent({item}) {
         <div id="itemHeadingR">
             <h1>{item.serviceName}</h1>
         </div>
-        <div id="itemTextR">
-            <p>{item.text}</p>
+        <div id="contentParentRight">
+            <div id="itemPicture">
+                <img className="previewPic" src={item.pic}/>
+            </div>
+            <div id="itemTextR">
+                <p>{item.text}</p>
+            </div>
         </div>
     </div>
 

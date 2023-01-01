@@ -6,6 +6,37 @@
     text-align: start;
 }
 
-#itemHeadingR {
+#contentParentLeft {
+    display: grid;
+    grid-template-columns: 65vw 35vw;
+}
+
+#itemHeadingL {
+    padding-left: 20px;
+}
+
+#itemTextL {
+    padding-left: 20px;
+}
+
+#itemRight {
     text-align: end;
+}
+
+#contentParentRight {
+    display: grid;
+    grid-template-columns: 35vw 65vw;
+}
+
+#itemHeadingR {
+    padding-right: 20px;
+}
+
+#itemTextR {
+    padding-right: 20px;
+}
+
+.previewPic {
+    height: 220px;
+    width: auto;
 }

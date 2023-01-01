@@ -1,18 +1,37 @@
 #ServicesWeOffer {
-    height: 80vh;
-    background-color: white;
+    height: 85vh;
+    background-color: rgb(239,248,254, .98);
     display: grid;
     margin-top: 20vh;
 }
 
 #ServicesListMain {
-    padding-top: 8vh;
+    padding-top: 10vh;
 }
 
 #ServicesList {
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: center;
-    column-gap: 3vw;
+    column-gap: 2vw;
     padding-top: 5vh;
+}
+
+#ServicesTitle {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 2vw;
+    padding-top: 5vh;
+}
+
+#areaTitle {
+    margin-top: -13px;
+}
+
+#line {
+    text-align:left;
+    width: 30vw;
+    height: .01px;
+    opacity: .5;
 }

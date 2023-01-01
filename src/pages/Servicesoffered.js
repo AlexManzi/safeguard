@@ -34,7 +34,9 @@ function Servicesoffered() {
     <div id="ServicesWeOffer">
         <div id="ServicesListMain">
             <div id="ServicesTitle">
-                <h1>Services Offered</h1>
+                <hr id="line"></hr>
+                <h1 id="areaTitle">Services Offered</h1>
+                <hr id="line"></hr>
             </div>
             <div id="ServicesList">
                 {servicesMap}
