@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Home.css';
+import Servicesoffered from './Servicesoffered';
+import ServiceInfo from '../components/ServiceInfo';
 
 function Home() {
   return (
@@ -12,6 +14,8 @@ function Home() {
                 <Link to="/ContactUs" id="contactLink"><button id="homeContact">Contact Us!</button></Link>
             </div>
         </div>
+        <Servicesoffered />
+        <ServiceInfo />
     </div>
   )
 }

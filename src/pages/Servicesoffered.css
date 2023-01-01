@@ -1,0 +1,18 @@
+#ServicesWeOffer {
+    height: 80vh;
+    background-color: white;
+    display: grid;
+    margin-top: 20vh;
+}
+
+#ServicesListMain {
+    padding-top: 8vh;
+}
+
+#ServicesList {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    column-gap: 3vw;
+    padding-top: 5vh;
+}

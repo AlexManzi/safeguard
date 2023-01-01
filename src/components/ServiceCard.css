@@ -1,0 +1,15 @@
+#CardTop {
+    border: 1px solid black;
+    height: 30vh;
+    width: 20vw;
+    display: grid;
+}
+
+#CardHeading {
+    padding-top: 2vh;
+}
+
+.cardPic {
+    height: 150px;
+    width: 150px;
+}

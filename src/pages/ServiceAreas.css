@@ -1,11 +1,17 @@
 #servicesTop {
     display: grid;
-
+    margin-top: 20vh;
+    height: 100vh;
 }
 
 #servicesMain {
     display: grid;
-    grid-template-columns: 40vw 60vw;
+    grid-template-columns: 65vw 35vw;
+    padding-top: 5vh;
+}
+
+ul {
+    list-style-type: none;
 }
 
 #servicesLeft{
@@ -20,5 +26,5 @@
 #servicesRight{
     text-align: end;
     padding-right: 50px;
-    margin-top: 50px;
+    margin-top: 150px;
 }

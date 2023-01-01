@@ -1,7 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #wholebar {
     display: grid;
     grid-template-columns: 30vw 70vw;
-    background-color: aliceblue;
+    background-color: rgb(239,248,254, .98);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 #leftside {
@@ -20,4 +27,11 @@
 .linkFormat {
     text-decoration: none;
     color: black;
+}
+
+#navscroll {
+    scroll-behavior: smooth;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
 }

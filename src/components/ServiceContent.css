@@ -1,0 +1,11 @@
+#item {
+    display: grid;
+}
+
+#itemLeft {
+    text-align: start;
+}
+
+#itemHeadingR {
+    text-align: end;
+}
