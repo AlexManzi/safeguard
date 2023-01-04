@@ -7,10 +7,19 @@ function ServiceContent({item}) {
         
     let displayTextArray = getTextArray.split("@")
 
-    console.log(displayTextArray[0])
-
     let getDiv = (item ? item.div : "")
 
+    let isLast = (item ? item.last : "")
+
+    console.log(getDiv)
+
+    let horizontalLine
+    
+    if (isLast === false) {
+        horizontalLine = <hr id="leftline"></hr>
+    } else {
+        horizontalLine = <hr id="noline"></hr>
+    }
 
 
     let displayLeft = 
@@ -28,6 +37,7 @@ function ServiceContent({item}) {
                 <img className="previewPic" src={item.pic}/>
             </div>
         </div>
+        {horizontalLine}
     </div>
 
     let displayRight = 
@@ -48,6 +58,7 @@ function ServiceContent({item}) {
                 <p>{displayTextArray[5]}</p>
             </div>
         </div>
+        {horizontalLine}
     </div>
 
     let display = (item.display === 'R' ? displayRight : displayLeft)

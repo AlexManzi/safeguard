@@ -6,6 +6,11 @@
     transition: .2s;
     background-color: rgb(186,202,223, .6);
     border-radius: 10px;
+    color: black;
+}
+
+#linkDiv {
+    text-decoration: none;
 }
 
 #CardTop:hover {
@@ -14,6 +19,7 @@
 
 #CardHeading {
     padding-top: 2vh;
+    text-decoration: none;
 }
 
 .cardPic {

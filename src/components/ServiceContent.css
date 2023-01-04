@@ -1,7 +1,7 @@
 #item {
     display: grid;
     grid-template-rows: auto auto auto auto;
-    row-gap: 4vh;
+    row-gap: 1.5vh;
 }
 
 #itemLeft {
@@ -54,4 +54,13 @@
 .previewPic {
     height: 220px;
     width: auto;
+}
+
+#leftline {
+    margin-top: 85px;
+    width: 33%;
+}
+
+#noline {
+    display: none;
 }

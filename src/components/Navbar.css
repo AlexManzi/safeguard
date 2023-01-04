@@ -9,6 +9,7 @@ html {
     position: fixed;
     top: 45px;
     z-index: 1;
+    border-bottom: 1px solid rgba(204, 205, 206, 0.2);
 }
 
 #leftside {
