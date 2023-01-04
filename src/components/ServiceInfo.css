@@ -1,4 +1,14 @@
 #InfoTop {
-    background-color: aquamarine;
-    height: 150vh;
+    background-color: rgb(239,248,253);
+    height: 265vh;
+}
+
+#BottomHeading {
+    padding-top: 5vh;
+}
+
+#InfoList {
+    padding-top: 5vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
 }

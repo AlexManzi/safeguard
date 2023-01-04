@@ -3,14 +3,26 @@ import './ServiceContent.css';
 
 function ServiceContent({item}) {
 
+    let getTextArray = (item ? item.text : "")
+        
+    let displayTextArray = getTextArray.split("@")
+
+    console.log(displayTextArray[0])
+
+    let getDiv = (item ? item.div : "")
+
+
+
     let displayLeft = 
     <div id="itemLeft">
-        <div id="itemHeadingL">
+        <div className="itemHeadingL" id={getDiv}>
             <h1>{item.serviceName}</h1>
         </div>
         <div id="contentParentLeft">
             <div id="itemTextL">
-                <p>{item.text}</p>
+                <p>{displayTextArray[0]}</p>
+                <p>{displayTextArray[1]}</p>
+                <p>{displayTextArray[2]}</p>
             </div>
             <div id="itemPicture">
                 <img className="previewPic" src={item.pic}/>
@@ -20,7 +32,7 @@ function ServiceContent({item}) {
 
     let displayRight = 
     <div id="itemRight">
-        <div id="itemHeadingR">
+        <div className="itemHeadingR" id={getDiv}>
             <h1>{item.serviceName}</h1>
         </div>
         <div id="contentParentRight">
@@ -28,7 +40,12 @@ function ServiceContent({item}) {
                 <img className="previewPic" src={item.pic}/>
             </div>
             <div id="itemTextR">
-                <p>{item.text}</p>
+                <p>{displayTextArray[0]}</p>
+                <p>{displayTextArray[1]}</p>
+                <p>{displayTextArray[2]}</p>
+                <p>{displayTextArray[3]}</p>
+                <p>{displayTextArray[4]}</p>
+                <p>{displayTextArray[5]}</p>
             </div>
         </div>
     </div>

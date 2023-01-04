@@ -10,13 +10,17 @@ function Servicesoffered() {
         pic: "https://www.freeiconspng.com/thumbs/survey-icon/survey-icon-12.png"
     },
     {
-        serviceName: "Vibration Monitoring"
+        serviceName: "Vibration Monitoring",
+        pic: "https://cdn3.iconfinder.com/data/icons/sound-waves-2/64/254_sound-wave-music-soundwave-vibration-beat-512.png"
     },
     {
-        serviceName: "Optical Monitoring"
+        serviceName: "Optical Monitoring",
+        pic: "https://static.thenounproject.com/png/1581173-200.png"
     },
     {
-        serviceName: "Crack Monitoring"
+        serviceName: "Crack Monitoring",
+        pic: "https://i.imgur.com/z497KUQ.png"
+    
     }
     ]
 
@@ -35,7 +39,7 @@ function Servicesoffered() {
         <div id="ServicesListMain">
             <div id="ServicesTitle">
                 <hr id="line"></hr>
-                <h1 id="areaTitle">Services Offered</h1>
+                <h1 id="grid-template-rows: 10vh;">Services Offered</h1>
                 <hr id="line"></hr>
             </div>
             <div id="ServicesList">
