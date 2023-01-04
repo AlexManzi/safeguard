@@ -23,8 +23,8 @@ function ServiceContent({item}) {
 
 
     let displayLeft = 
-    <div id="itemLeft">
-        <div className="itemHeadingL" id={getDiv}>
+    <div className="itemLeft" id={getDiv}>
+        <div className="itemHeadingL">
             <h1>{item.serviceName}</h1>
         </div>
         <div id="contentParentLeft">
@@ -41,8 +41,8 @@ function ServiceContent({item}) {
     </div>
 
     let displayRight = 
-    <div id="itemRight">
-        <div className="itemHeadingR" id={getDiv}>
+    <div className="itemRight" id={getDiv}>
+        <div className="itemHeadingR">
             <h1>{item.serviceName}</h1>
         </div>
         <div id="contentParentRight">

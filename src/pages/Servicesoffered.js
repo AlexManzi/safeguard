@@ -43,7 +43,7 @@ function Servicesoffered() {
         <div id="ServicesListMain">
             <div id="ServicesTitle">
                 <hr id="line"></hr>
-                <h1 id="grid-template-rows: 10vh;">Services Offered</h1>
+                <h1 id="areaTitle">Services Offered</h1>
                 <hr id="line"></hr>
             </div>
             <div id="ServicesList">

@@ -1,16 +1,16 @@
 #item {
     display: grid;
     grid-template-rows: auto auto auto auto;
-    row-gap: 1.5vh;
 }
 
-#itemLeft {
+.itemLeft {
     text-align: start;
     /* border: 1px solid whitesmoke;
     background-color: whitesmoke; */
     /* margin-right: 5vw; */
     padding: 1vh;
     border-radius: 10px;
+    margin-top: -50px;
 }
 
 #contentParentLeft {
@@ -21,19 +21,21 @@
 
 .itemHeadingL {
     padding-left: 20px;
+    padding-top: 100px;
 }
 
 #itemTextL {
     padding-left: 20px;
 }
 
-#itemRight {
+.itemRight {
     text-align: start;
     /* border: 1px solid whitesmoke;
     background-color: whitesmoke; */
     /* margin-left: 5vw; */
     padding: 1vh;
     border-radius: 10px;
+    margin-top: -50px;
 }
 
 #contentParentRight {
@@ -45,6 +47,7 @@
 .itemHeadingR {
     padding-right: 20px;
     text-align: end;
+    padding-top: 100px;
 }
 
 #itemTextR {
@@ -57,7 +60,7 @@
 }
 
 #leftline {
-    margin-top: 85px;
+    margin-top: 125px;
     width: 33%;
 }
 
