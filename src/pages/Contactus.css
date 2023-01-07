@@ -1,0 +1,13 @@
+#contactFormTop {
+    display: grid;
+    justify-content: start;
+    text-align: start;
+    background-image: url('../pictures/contactBackground.png');
+    background-size: 100vw;
+    height: 100vh;
+}
+
+#contactHeading {
+    padding-top: 20vh;
+    padding-left: 20px;
+}

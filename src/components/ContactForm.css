@@ -1,0 +1,62 @@
+#contactForm {
+    display: grid;
+    margin-top: -50px;
+}
+
+#topDivForm {
+    display: grid;
+    row-gap: 1vh;
+    justify-content: start;
+    text-align: start;
+    padding-left: 20px;
+}
+
+#contactPieces {
+    display: grid;
+    grid-template-columns: auto auto; 
+    column-gap: 10px;
+    justify-content: start;
+}
+
+.contactEntry {
+    width: 300px;
+    padding: 15px;
+    font-size: .9rem;
+    border-radius: 1px;
+    border-bottom: 3px solid black;
+    background-color: rgb(197, 197, 197, .3);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    transition: .2s;
+}
+
+.contactEntry:hover {
+    background-color: rgb(197, 197, 197, .6);
+    border-bottom: 5px solid black;
+}
+
+
+#messageEntry {
+    width: 650px;
+    height: 25vh;
+    border-radius: 1px;
+    border-bottom: 3px solid black;
+    background-color: rgb(197, 197, 197, .3);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 10px;
+}
+
+#messageEntry:hover {
+    background-color: rgb(197, 197, 197, .6);
+    border-bottom: 5px solid black;
+}
+
+#sendMessage {
+    padding: 12px;
+    border: 0px;
+    background-color: green;
+    border-radius: 25px;
+}
