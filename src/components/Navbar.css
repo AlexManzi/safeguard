@@ -23,7 +23,7 @@ html {
     display: grid;
     padding-top: 12px;
     grid-template-columns: auto auto auto auto auto auto;
-    font-size: .6rem;
+    font-size: .7rem;
     justify-content: end;
     column-gap: 3vw;
 }
@@ -103,4 +103,29 @@ li {
 #phoneNumber:hover {
     background-color: rgb(249, 173, 73);
 
+}
+
+.btn {
+    display: none; 
+    position: absolute;
+    height: 20px;
+    width: auto;
+    right: 10px;
+    top: 7px;
+    padding: 12px;
+    color: black;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 500px) { 
+    .btn {
+        display: block;
+    }
+
+    #rightside {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        height: auto;
+    }
 }

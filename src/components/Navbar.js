@@ -1,9 +1,27 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 import './Navbar.css';
 
-function q() {
+function Q() {
+
+  const [menu, setMenu] = useState(false)
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+
+  function toggleNav() {
+      setMenu(!menu)
+  }
+
+  useEffect(()=> {
+      function changeWidth() {
+          setScreenWidth(window.innerWidth)
+      }
+      window.addEventListener('resize', changeWidth)
+      return() => {
+          window.removeEventListener('resize', changeWidth)
+      }
+  }, [])
+
 
   let showServices =
     <div className='items' id="socials"><HashLink to="/#ServicesWeOffer" className='linkFormat'><h1>Services Offered</h1></HashLink>
@@ -21,15 +39,20 @@ function q() {
       <div id="leftside">
         <Link to="/" className='linkFormat'><h1>Safeguard</h1></Link>
       </div>
+      <nav>
+      {(menu || screenWidth > 500) && (
       <div id="rightside">
         <Link to="/ServiceAreas" className='linkFormat'><h1>Service Areas</h1></Link>
         {showServices}
         <Link to="/AboutUs" className='linkFormat'><h1>About Us</h1></Link>
         <a className='linkFormat' href="tel:646-265-5108"><h1>646-265-5108</h1></a>
         <Link to="/ContactUs" className='linkFormat' id="phoneNumber"><h1>Contact Us</h1></Link>
-      </div>
+        </div>
+        )}
+        <img onClick={toggleNav} className='btn' src={require('../pictures/hamburger1.png')} alt="pic" />
+        </nav>
     </div>
   )
 }
 
-export default q
+export default Q
