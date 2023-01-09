@@ -3,26 +3,32 @@ import './ServiceAreas.css';
 
 function ServiceAreas() {
   return (
-    <div id="servicesTop">
+    <div id="servicesTopPage">
         <div id="servicesMain">
-            <div id="servicesLeft">
-                <h2 id="coverageHeading">Our Service Areas Are Constantly Expanding And Our Coverage Area Includes You!</h2>
+            <div id="servicesTop">
+                <h2 id="coverageHeading">Areas We Serve</h2>
             </div>
-            <div id="servicesRight">
-                <h3>To date, we have worked in a variety of states including</h3>
-                <ul>
+            <div id="servicesBottom">
+                <h3 id="colHeading">To date, we have worked in a variety of states including:</h3>
+                <ul id="topCol">
+                    <div id="col1">
                     <li>Alabama</li>
                     <li>Arkansas</li>
                     <li>Connecticut</li>
                     <li>Maryland</li>
+                    </div>
+                    <div id="col2">
                     <li>Massachussetts</li>
                     <li>Mississippi</li>
                     <li>New Jersey</li>
                     <li>New York</li>
+                    </div>
+                    <div id="col3">
                     <li>Pennsylvania</li>
                     <li>Rhode Island</li>
                     <li>Tennessee</li>
                     <li>Virginia</li>
+                    </div>
                 </ul>
             </div>
         </div>

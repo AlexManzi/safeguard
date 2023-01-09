@@ -7,9 +7,10 @@ html {
     grid-template-columns: 30vw 70vw;
     background-color: rgb(239,248,254, .98);
     position: fixed;
-    top: 45px;
+    /* top: 5px;4 */
     z-index: 1;
     border-bottom: 1px solid rgba(204, 205, 206, 0.2);
+    font-family: 'Cabin', sans-serif;
 }
 
 #leftside {
@@ -88,4 +89,18 @@ html {
 
 li {
     list-style-type: none;
+}
+
+#phoneNumber {
+    background-color: rgb(249, 173, 73, .8);
+    margin-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+    transform: .2s;
+}
+
+#phoneNumber:hover {
+    background-color: rgb(249, 173, 73);
+
 }

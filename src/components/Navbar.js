@@ -23,10 +23,10 @@ function q() {
       </div>
       <div id="rightside">
         <Link to="/ServiceAreas" className='linkFormat'><h1>Service Areas</h1></Link>
-        <Link to="/Projects" className='linkFormat'><h1>Projects</h1></Link>
         {showServices}
-        <Link to="/ContactUs" className='linkFormat'><h1>Contact Us</h1></Link>
         <Link to="/AboutUs" className='linkFormat'><h1>About Us</h1></Link>
+        <a className='linkFormat' href="tel:646-265-5108"><h1>646-265-5108</h1></a>
+        <Link to="/ContactUs" className='linkFormat' id="phoneNumber"><h1>Contact Us</h1></Link>
       </div>
     </div>
   )

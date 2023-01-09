@@ -1,6 +1,7 @@
 #item {
     display: grid;
     grid-template-rows: auto auto auto auto;
+    font-family: 'Cabin', sans-serif;
 }
 
 .itemLeft {
