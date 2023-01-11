@@ -16,7 +16,7 @@ function App() {
       {/* <Contactbar/> */}
       <Navbar />
       <Routes>
-        <Route exact path="" element={<Home/>}/>
+        <Route exact path="/" element={<Home/>}/>
         <Route exact path="/ServiceAreas" element={<ServiceAreas/>}/>
         <Route exact path="/Projects" element={<Projects/>}/>
         <Route exact path="/ContactUs" element={<Contactus/>}/>
