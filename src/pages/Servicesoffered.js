@@ -13,7 +13,7 @@ function Servicesoffered() {
     {
         serviceName: "Vibration Monitoring",
         div: "#VibrationMonitoring",
-        pic: "https://cdn3.iconfinder.com/data/icons/sound-waves-2/64/254_sound-wave-music-soundwave-vibration-beat-512.png"
+        pic: "https://static.thenounproject.com/png/209686-200.png"
     },
     {
         serviceName: "Optical Monitoring",
