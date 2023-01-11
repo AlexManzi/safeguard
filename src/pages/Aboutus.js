@@ -5,7 +5,7 @@ function Aboutus() {
   return (
     <div id="aboutTop">
       <div id="aboutHeading">
-        <h1>Who are we?</h1>
+        <h1>WHAT WE DO</h1>
       </div>
       <div id="aboutBottom">
         <div>

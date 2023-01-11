@@ -8,7 +8,7 @@ function Servicesoffered() {
     {
         serviceName: "Preconstruction Surveys",
         div: "#PreSurvey",
-        pic: "https://www.freeiconspng.com/thumbs/survey-icon/survey-icon-12.png"
+        pic: "https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-clipboard-512.png"
     },
     {
         serviceName: "Vibration Monitoring",

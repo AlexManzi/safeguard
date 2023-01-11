@@ -49,7 +49,7 @@ function Q() {
         <Link to="/ContactUs" className='linkFormat' id="phoneNumber"><h1>Contact Us</h1></Link>
         </div>
         )}
-        <img onClick={toggleNav} className='btn' src={require('../pictures/hamburger1.png')} alt="pic" />
+        <img onClick={toggleNav} className='btn' src={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png'} alt="pic" />
         </nav>
     </div>
   )
