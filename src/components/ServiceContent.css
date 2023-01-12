@@ -68,3 +68,61 @@
 #noline {
     display: none;
 }
+
+@media screen and (max-width: 500px) { 
+
+    .itemLeft {
+        text-align: start;
+        padding: 0vh;
+        border-radius: 10px;
+        margin-top: -50px;
+    }
+
+    #itemTextL {
+        padding-left: 0px;
+    }
+
+    #contentParentLeft {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 5vw;   
+        row-gap: 5vh;
+        text-align: center;
+    }
+
+    .itemRight {
+        text-align: start;
+        padding: 0vh;
+        border-radius: 10px;
+        margin-top: -50px;
+    }
+
+    #itemTextR {
+        padding-right: 0px;
+    }
+
+    #contentParentRight {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 5vw;
+        row-gap: 5vh;
+        text-align: center;
+    }
+
+    .itemHeadingL {
+        text-align: center;
+        padding-top: 90px;
+        font-size: .9rem;
+    }
+
+    #leftline {
+        margin-top: 90px;
+        width: 45%;
+    }
+
+    .itemHeadingR {
+        text-align: center;
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+}

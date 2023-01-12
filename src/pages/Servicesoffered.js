@@ -17,7 +17,7 @@ function Servicesoffered() {
     },
     {
         serviceName: "Optical Monitoring",
-        div: "#VibrationMonitoring",
+        div: "#OpticalMonitoring",
         pic: "https://static.thenounproject.com/png/1581173-200.png"
     },
     {

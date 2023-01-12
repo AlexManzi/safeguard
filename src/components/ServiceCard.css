@@ -27,3 +27,21 @@
     width: 125px;
 }
 
+@media screen and (max-width: 500px) { 
+    #CardTop {
+        border: 1px solid rgb(186,202,223, .6);
+        height: 24vh;
+        width: 40vw;
+        display: grid;
+        transition: .2s;
+        background-color: rgb(186,202,223, .6);
+        border-radius: 10px;
+        color: black;
+    }
+
+    .cardPic {
+        height: 100px;
+        width: 100px;
+    }
+}
+

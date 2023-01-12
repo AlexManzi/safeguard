@@ -35,3 +35,43 @@
     height: .01px;
     opacity: .5;
 }
+
+
+@media screen and (max-width: 500px) { 
+    #ServicesWeOffer {
+        height: 85vh;
+        background-color: rgb(239,248,253);
+        display: grid;
+        margin-top: 20vh;
+        width: 100vw;
+    }
+
+    #ServicesTitle {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        column-gap: 2vw;
+        padding-top: 5vh;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #line {
+        width: 20vw;
+        height: .01px;
+        opacity: .5;
+    }
+
+    #areaTitle {
+        margin-top: -30px;
+    }
+
+    #ServicesList {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        column-gap: 2vw;
+        row-gap: 1vh;
+        padding-top: 2vh;
+    }
+}

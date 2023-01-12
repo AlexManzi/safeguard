@@ -108,11 +108,11 @@ li {
 .btn {
     display: none; 
     position: absolute;
-    height: 20px;
+    height: 27px;
     width: auto;
     right: 10px;
     top: 7px;
-    padding: 12px;
+    padding: 15px;
     color: black;
     font-size: 18px;
 }
@@ -124,8 +124,29 @@ li {
 
     #rightside {
         display: grid;
-        grid-template-columns: 100%;
-        justify-content: center;
+        grid-template-columns: auto;
+        justify-content: start;
+        text-align: center;
         height: auto;
+        margin-top: 55px;
+        width: 100vw;
+        margin-left: 6vw;
     }
+
+    #leftside {
+        text-align: start;
+        font-size: .9rem;
+        padding-left: 25px;
+    }
+
+
+    #phoneNumber {
+        background-color: rgb(249, 173, 73, .8);
+        margin-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 1px;
+        border-radius: 2px;
+        transform: .2s;
+}
+
 }
