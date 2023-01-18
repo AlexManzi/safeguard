@@ -42,11 +42,11 @@ function Q() {
       <nav>
       {(menu || screenWidth > 500) && (
       <div id="rightside">
-        <Link to="/ServiceAreas" className='linkFormat'><h1>Service Areas</h1></Link>
+        <Link to="/ServiceAreas" className='linkFormat' onClick={toggleNav}><h1>Service Areas</h1></Link>
         {showServices}
-        <Link to="/AboutUs" className='linkFormat'><h1>About Us</h1></Link>
-        <a className='linkFormat' href="tel:646-265-5108"><h1>646-265-5108</h1></a>
-        <Link to="/ContactUs" className='linkFormat' id="phoneNumber"><h1>Contact Us</h1></Link>
+        <Link to="/AboutUs" className='linkFormat' onClick={toggleNav}><h1>About Us</h1></Link>
+        <a className='linkFormat' href="tel:646-265-5108" onClick={toggleNav}><h1>646-265-5108</h1></a>
+        <Link to="/ContactUs" className='linkFormat' id="phoneNumber" onClick={toggleNav}><h1>Contact Us</h1></Link>
         </div>
         )}
         <img onClick={toggleNav} className='btn' src={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png'} alt="pic" />

@@ -147,6 +147,10 @@ li {
         padding-right: 1px;
         border-radius: 2px;
         transform: .2s;
-}
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
 
 }

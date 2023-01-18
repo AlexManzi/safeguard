@@ -21,7 +21,14 @@
 
     #InfoList {
         padding-top: 5vh;
-        padding-left: 2vh;
-        padding-right: 2vh;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 395px) { 
+    #InfoTop {
+        width: 100vw;
+        height: 440vh;
     }
 }

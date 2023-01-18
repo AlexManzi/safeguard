@@ -43,5 +43,9 @@
         height: 100px;
         width: 100px;
     }
+
+    #CardTop:hover {
+        transform: scale(1)
+    }
 }
 
