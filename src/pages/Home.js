@@ -11,7 +11,10 @@ function Home() {
             <div id="homeBlurb">
                 <h2 id="heading">THE BEST POSSIBLE PROTECTION FOR CONTRACTORS AND PROPERTY OWNERS.</h2>
                 <p id="frontText">We offer complete protection for any construction activity that produced vibration including excavations, rock blasting, pile driving, drilling, underpinning, and any other vibration producing activity.</p>
-                <Link to="/ContactUs" id="contactLink"><button id="homeContact">Contact Us!</button></Link>
+                <div id="buttonDiv">
+                  <Link to="/ContactUs" id="contactLink"><button id="quote" className="homeContact">Get a Quote!</button></Link>
+                  <button className="homeContact" id="callUs">Call Us!</button>
+                </div>
             </div>
         </div>
         <Servicesoffered />

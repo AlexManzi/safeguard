@@ -10,7 +10,8 @@ html {
     /* top: 5px;4 */
     z-index: 1;
     border-bottom: 1px solid rgba(204, 205, 206, 0.2);
-    font-family: 'Cabin', sans-serif;
+    box-shadow: .1px 1px 5px grey;
+    font-family: 'Sofia Sans', sans-serif;
 }
 
 #leftside {
@@ -23,7 +24,7 @@ html {
     display: grid;
     padding-top: 12px;
     grid-template-columns: auto auto auto auto auto auto;
-    font-size: .7rem;
+    font-size: .75rem;
     justify-content: end;
     column-gap: 3vw;
 }
@@ -115,6 +116,9 @@ li {
     padding: 15px;
     color: black;
     font-size: 18px;
+}
+
+#telReal {
 }
 
 @media screen and (max-width: 500px) { 
