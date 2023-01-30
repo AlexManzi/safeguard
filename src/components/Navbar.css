@@ -16,8 +16,9 @@ html {
 
 #leftside {
     text-align: start;
-    font-size: .9rem;
+    font-size: .85rem;
     padding-left: 50px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #rightside {

@@ -29,7 +29,7 @@
     text-align: start;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 #frontText {
@@ -70,6 +70,7 @@
     grid-template-columns: auto auto;
     justify-content: center;
     column-gap: 1vw;
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 500px) { 
